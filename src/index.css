@@ -1,0 +1,73 @@
+* {
+    transition: all 0.2s ease-out;
+}
+
+.container {
+    font-weight: bold;
+    font-size: large;
+    max-width: 450px;
+    max-height: fit-content;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #888;
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 100px;
+}
+.container-xl {
+    margin: 30px auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 5px #80808070;
+    padding: 30px;
+    border-radius: 30px 0px 30px 0px;
+    position: relative;
+    /* border: none;
+        padding: 10px 20px;
+        font-size: large;
+        border-radius: 4px;
+        box-shadow: 1px 1px 5px #000, -1px -1px 5px #6f6f6f, inset 1px 1px 1px #2b2b2b, inset -1px -1px 5px #424242;
+        color: #c4c4c4;
+    */
+}
+
+.container-sm {
+    margin: 30px auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 0px #80808070;
+    backdrop-filter: blur();
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.card {
+    width: 18rem;
+    margin: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ctn {
+    position: relative;
+}
+
+.aboutClass {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    margin: 80px 30px auto;
+}
+
+button[type="button"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
